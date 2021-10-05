@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208927570-1"></script>    
+    <!-- test (UA-148063024-1) -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+
+        for (let i = 0; i < 20; i++) {
+            gtag('config', 'UA-208927570-1', { 'dimension1': 'UID123' });
+        }
+
+        // var pagePath = location.href;
+        // var pageTitle = 'This is a test!';
+
+        // gtag('config', 'UA-208927570-1', {
+        //     'custom_map': { 'dimension1': 'merchantId' },
+
+        //     'page_path': pagePath,
+        //     'page_title': pageTitle,
+
+        //     'merchantId': 'UID123',
+        // });
+
+        //  var dimensionValue = 'merchantId123';
+        //  ga('set', 'dimension1', dimensionValue);
+
+        //  gtag('event', 'onload', { 'merchantId': 'UID123' });
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Test Analytics</h1>
+    <button type="button">Click!</button>
+
+</body>
+
+</html>
